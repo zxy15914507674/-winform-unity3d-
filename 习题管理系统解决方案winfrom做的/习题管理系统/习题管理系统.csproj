@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A11BE64F-B350-4838-AF3F-B8E752695CA7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>习题管理系统</RootNamespace>
+    <AssemblyName>习题管理系统</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\DataGridViewStyle.cs" />
+    <Compile Include="Common\DataValidate.cs" />
+    <Compile Include="Common\SerializeObjectToString.cs" />
+    <Compile Include="Common\StringSecurity.cs" />
+    <Compile Include="FrmexerciseManager\FrmAddChooseQuestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmexerciseManager\FrmAddChooseQuestion.Designer.cs">
+      <DependentUpon>FrmAddChooseQuestion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmexerciseManager\FrmAddCompletionQuestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmexerciseManager\FrmAddCompletionQuestion.Designer.cs">
+      <DependentUpon>FrmAddCompletionQuestion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmexerciseManager\FrmAddShortAnswerQuestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmexerciseManager\FrmAddShortAnswerQuestion.Designer.cs">
+      <DependentUpon>FrmAddShortAnswerQuestion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmexerciseManager\FrmChooseQuestionInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmexerciseManager\FrmChooseQuestionInfo.Designer.cs">
+      <DependentUpon>FrmChooseQuestionInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmexerciseManager\FrmCompletionQuestionInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmexerciseManager\FrmCompletionQuestionInfo.Designer.cs">
+      <DependentUpon>FrmCompletionQuestionInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmexerciseManager\FrmExerciseQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmexerciseManager\FrmExerciseQuery.Designer.cs">
+      <DependentUpon>FrmExerciseQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmexerciseManager\FrmModifyChooseQuestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmexerciseManager\FrmModifyChooseQuestion.Designer.cs">
+      <DependentUpon>FrmModifyChooseQuestion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmexerciseManager\FrmModifyCompletionQuestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmexerciseManager\FrmModifyCompletionQuestion.Designer.cs">
+      <DependentUpon>FrmModifyCompletionQuestion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmexerciseManager\FrmModifyShortAnswerQuestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmexerciseManager\FrmModifyShortAnswerQuestion.Designer.cs">
+      <DependentUpon>FrmModifyShortAnswerQuestion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmexerciseManager\FrmShortAnswerQuestionInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmexerciseManager\FrmShortAnswerQuestionInfo.Designer.cs">
+      <DependentUpon>FrmShortAnswerQuestionInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmModifyPwd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmModifyPwd.Designer.cs">
+      <DependentUpon>FrmModifyPwd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTeacherManager\FrmAddTeacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTeacherManager\FrmAddTeacher.Designer.cs">
+      <DependentUpon>FrmAddTeacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTeacherManager\FrmTeacherInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTeacherManager\FrmTeacherInfo.Designer.cs">
+      <DependentUpon>FrmTeacherInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTeacherManager\FrmTeacherInfoModify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTeacherManager\FrmTeacherInfoModify.Designer.cs">
+      <DependentUpon>FrmTeacherInfoModify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmexerciseManager\FrmAddChooseQuestion.resx">
+      <DependentUpon>FrmAddChooseQuestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmexerciseManager\FrmAddCompletionQuestion.resx">
+      <DependentUpon>FrmAddCompletionQuestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmexerciseManager\FrmAddShortAnswerQuestion.resx">
+      <DependentUpon>FrmAddShortAnswerQuestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmexerciseManager\FrmChooseQuestionInfo.resx">
+      <DependentUpon>FrmChooseQuestionInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmexerciseManager\FrmCompletionQuestionInfo.resx">
+      <DependentUpon>FrmCompletionQuestionInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmexerciseManager\FrmExerciseQuery.resx">
+      <DependentUpon>FrmExerciseQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmexerciseManager\FrmModifyChooseQuestion.resx">
+      <DependentUpon>FrmModifyChooseQuestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmexerciseManager\FrmModifyCompletionQuestion.resx">
+      <DependentUpon>FrmModifyCompletionQuestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmexerciseManager\FrmModifyShortAnswerQuestion.resx">
+      <DependentUpon>FrmModifyShortAnswerQuestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmexerciseManager\FrmShortAnswerQuestionInfo.resx">
+      <DependentUpon>FrmShortAnswerQuestionInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmModifyPwd.resx">
+      <DependentUpon>FrmModifyPwd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTeacherManager\FrmAddTeacher.resx">
+      <DependentUpon>FrmAddTeacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTeacherManager\FrmTeacherInfo.resx">
+      <DependentUpon>FrmTeacherInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTeacherManager\FrmTeacherInfoModify.resx">
+      <DependentUpon>FrmTeacherInfoModify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{486a1d53-86e8-4039-a760-b566460a70a9}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{ed9f6dda-c71a-4d7c-8e42-ac8c00c51585}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="images\about.ico" />
+    <Content Include="images\App.ico" />
+    <Content Include="images\ATTACHED.ICO" />
+    <Content Include="images\BaseDate.ICO" />
+    <Content Include="images\bg.jpg" />
+    <Content Include="images\bMan..ico" />
+    <Content Include="images\BOOK02.ICO" />
+    <Content Include="images\BOOKS01.ICO" />
+    <Content Include="images\Cancel.ico" />
+    <Content Include="images\CHECKMRK.ICO" />
+    <Content Include="images\Close.ico" />
+    <Content Include="images\ConnectionStr.ico" />
+    <Content Include="images\CustomerOrder.ico" />
+    <Content Include="images\DataBase.ico" />
+    <Content Include="images\DeliveryOrder.ICO" />
+    <Content Include="images\downLoad.ico" />
+    <Content Include="images\Edit.ico" />
+    <Content Include="images\exit.ico" />
+    <Content Include="images\GiveUp.ico" />
+    <Content Include="images\HANDSHAK.ICO" />
+    <Content Include="images\his.ICO" />
+    <Content Include="images\Icon.ico" />
+    <Content Include="images\key_32.ico" />
+    <Content Include="images\lklLogin.ICO" />
+    <Content Include="images\lklLoginExit.ico" />
+    <None Include="images\mainBg.jpg" />
+    <None Include="images\login_bg.jpg" />
+    <Content Include="images\MainFormLog.ICO" />
+    <Content Include="images\MngDowndown.bmp" />
+    <Content Include="images\MngIncdown.bmp" />
+    <Content Include="images\MngUpover.bmp" />
+    <Content Include="images\mrp.ico" />
+    <Content Include="images\Msg.ico" />
+    <Content Include="images\MSGBOX02.ICO" />
+    <Content Include="images\MSGBOX03.ICO" />
+    <Content Include="images\My Computer.ico" />
+    <Content Include="images\new.ico" />
+    <Content Include="images\open.ico" />
+    <Content Include="images\people.ico" />
+    <Content Include="images\Print.ico" />
+    <Content Include="images\Print1.ico" />
+    <Content Include="images\PROPS.ICO" />
+    <Content Include="images\Purchase.ico" />
+    <Content Include="images\Query.ico" />
+    <Content Include="images\Save.ico" />
+    <Content Include="images\Sells.ico" />
+    <Content Include="images\SNAPIN.ICO" />
+    <Content Include="images\student.ico" />
+    <Content Include="images\SysManage.ICO" />
+    <Content Include="images\TABLE.ICO" />
+    <Content Include="images\turn.BMP" />
+    <Content Include="images\UserLogin.ico" />
+    <Content Include="images\UserPsw.ico" />
+    <Content Include="images\Users.ico" />
+    <Content Include="images\Vechile.ico" />
+    <Content Include="images\warn.ico" />
+    <Content Include="images\上记录.bmp" />
+    <Content Include="images\下记录.bmp" />
+    <Content Include="images\保存.bmp" />
+    <Content Include="images\修改.bmp" />
+    <Content Include="images\关闭.bmp" />
+    <Content Include="images\删除.bmp" />
+    <Content Include="images\取消.bmp" />
+    <Content Include="images\尾记录.bmp" />
+    <Content Include="images\打印.BMP" />
+    <Content Include="images\搜索.bmp" />
+    <Content Include="images\新增.bmp" />
+    <Content Include="images\查询选择.bmp" />
+    <Content Include="images\计算.bmp" />
+    <Content Include="images\首记录.bmp" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,139 @@
+
+create database if not exists unity;
+
+use unity;
+
+
+
+
+
+drop table if exists TeacherInfo;
+
+create table TeacherInfo
+(id int not null primary key auto_increment,
+teacherNumber varchar(20) not null,
+teacherName varchar(10) not null,
+pwd varchar(50) not null,
+adminType tinyint not null
+)
+
+default charset=utf8;
+
+
+
+
+
+
+
+
+drop table if exists ChoiceQuestion;
+
+
+create table ChoiceQuestion
+
+(id int primary key auto_increment,
+
+expName varchar(20) not null,
+sceneName varchar(50) not null,
+
+questionTypeNumber tinyint not null,
+
+content mediumtext not null,
+
+optionA text,
+
+optionB text,
+
+optionC text,
+
+optionD text,
+
+picture mediumtext,
+
+answer varchar(10) not null,
+
+score varchar(10) not null,
+
+teacherName varchar(10) not null
+)
+
+auto_increment=10000,default charset=utf8;
+
+
+
+
+
+
+
+
+drop table if exists CompletionQuestion;
+
+
+create table CompletionQuestion
+
+(id int primary key auto_increment,
+
+expName varchar(20) not null,
+sceneName varchar(50) not null,
+
+questionTypeNumber tinyint not null,
+
+content mediumtext not null,
+
+picture mediumtext,
+
+answer text not null,
+
+score varchar(10) not null,
+teacherName varchar(10) not null
+
+)
+
+auto_increment=20000,default charset=utf8;
+
+
+
+
+
+
+
+drop table if exists ShortAnswerQuestion;
+
+
+create table ShortAnswerQuestion
+
+(id int primary key auto_increment,
+
+expName varchar(20) not null,
+sceneName varchar(50) not null,
+
+questionTypeNumber tinyint not null,
+
+content mediumtext not null,
+
+picture mediumtext,
+
+answer text not null,
+
+keyword text not null,
+
+score varchar(10) not null,
+
+teacherName varchar(10) not null)
+auto_increment=30000,default charset=utf8;
+
+
+
+drop table if exists ExpsTable;
+
+create table ExpsTable(id int(11) NOT NULL AUTO_INCREMENT primary key,
+ ExpName varchar(20),ExpCourse varchar(40),
+ LabRoom varchar(40),ExpType varchar(50),
+ KeysWords varchar(100),IfFree varchar(10),
+ Introduction varchar(1000),
+ Pictures varchar(1000) DEFAULT NULL,
+ Workmanid int(11) DEFAULT NULL,
+ Score mediumtext,
+ ExpAddress varchar(200),
+ SceneName varchar(20)
+ )default charset=utf8, engine=InnoDB;

@@ -1,0 +1,9 @@
+E:\VS2012Project\习题管理系统解决方案\DAL\bin\Debug\DAL.dll
+E:\VS2012Project\习题管理系统解决方案\DAL\bin\Debug\DAL.pdb
+E:\VS2012Project\习题管理系统解决方案\DAL\bin\Debug\Model.dll
+E:\VS2012Project\习题管理系统解决方案\DAL\bin\Debug\Model.pdb
+E:\VS2012Project\习题管理系统解决方案\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\VS2012Project\习题管理系统解决方案\DAL\obj\Debug\DAL.dll
+E:\VS2012Project\习题管理系统解决方案\DAL\obj\Debug\DAL.pdb
+E:\VS2012Project\习题管理系统解决方案\DAL\bin\Debug\MySql.Data.dll
+E:\VS2012Project\习题管理系统解决方案\DAL\bin\Debug\DAL.Helper.dll

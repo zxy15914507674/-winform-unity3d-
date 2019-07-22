@@ -1,0 +1,23 @@
+1 把  习题建表语句.txt 的sql语句拿到mysql中执行
+
+2 插入初始数据
+insert into TeacherInfo(teacherNumber,teacherName,pwd,adminType) values('2111703061','zxy','123456',1);
+
+3 修改数据库的连接字符串
+  修改的地方1：在目录： 习题动态加载unity3d做的\习题管理系统 下的App.config
+               修改如下：
+		<connectionStrings>
+                   <add name="connString" connectionString="data source=127.0.0.1;database=unity;user id=数据库登录用户名;password=数据库登录密码;charset=utf8"/>
+                </connectionStrings>
+
+ 修改的地方2：在目录：习题动态加载unity3d做的 下的config.xml
+	      修改如下：
+		<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+		<root>
+  		<!--数据库连接字符串-->
+ 		     <ConnectionString>data source=127.0.0.1;database=unity;user id=数据库登录用户名;password=数据库登录密码;charset=utf8</ConnectionString>
+  
+		</root> 
+
+4  最好使用的Visual Studio 的版本为2012
+   unity3d的版本不低于Unity 5.5.1

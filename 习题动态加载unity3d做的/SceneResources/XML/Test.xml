@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root>
+  <gameObject>
+    <gameObjectName>QuestionParent</gameObjectName>
+    <scriptName>StateSystem</scriptName>
+  </gameObject>
+  <gameObject>
+    <gameObjectName>CompletionQuestionUI</gameObjectName>
+    <scriptName>CreateAnswerPanel</scriptName>
+  </gameObject>
+</root>

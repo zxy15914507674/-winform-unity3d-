@@ -1,0 +1,103 @@
+Initialize engine version: 5.5.1f1 (88d00a7498cd)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 520 (ID=0x1916)
+    Vendor:   Intel
+    VRAM:     1008 MB
+    Driver:   20.19.15.4463
+Begin MonoManager ReloadAssembly
+Platform assembly: E:\unityProject\习题动态加载\Test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading E:\unityProject\习题动态加载\Test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: E:\unityProject\习题动态加载\Test_Data\Managed\I18N.dll (this message is harmless)
+Platform assembly: E:\unityProject\习题动态加载\Test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading E:\unityProject\习题动态加载\Test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: E:\unityProject\习题动态加载\Test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading E:\unityProject\习题动态加载\Test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: E:\unityProject\习题动态加载\Test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading E:\unityProject\习题动态加载\Test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: E:\unityProject\习题动态加载\Test_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading E:\unityProject\习题动态加载\Test_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: E:\unityProject\习题动态加载\Test_Data\Managed\I18N.dll (this message is harmless)
+Loading E:\unityProject\习题动态加载\Test_Data\Managed\I18N.dll into Unity Child Domain
+Platform assembly: E:\unityProject\习题动态加载\Test_Data\Managed\I18N.West.dll (this message is harmless)
+Loading E:\unityProject\习题动态加载\Test_Data\Managed\I18N.West.dll into Unity Child Domain
+Platform assembly: E:\unityProject\习题动态加载\Test_Data\Managed\MySql.Data.dll (this message is harmless)
+Loading E:\unityProject\习题动态加载\Test_Data\Managed\MySql.Data.dll into Unity Child Domain
+Platform assembly: E:\unityProject\习题动态加载\Test_Data\Managed\System.Data.dll (this message is harmless)
+Loading E:\unityProject\习题动态加载\Test_Data\Managed\System.Data.dll into Unity Child Domain
+Platform assembly: E:\unityProject\习题动态加载\Test_Data\Managed\System.Drawing.dll (this message is harmless)
+Loading E:\unityProject\习题动态加载\Test_Data\Managed\System.Drawing.dll into Unity Child Domain
+- Completed reload, in  0.107 seconds
+Platform assembly: E:\unityProject\习题动态加载\Test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: E:\unityProject\习题动态加载\Test_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.614072 ms
+Platform assembly: E:\unityProject\习题动态加载\Test_Data\Managed\System.Xml.dll (this message is harmless)
+Platform assembly: E:\unityProject\习题动态加载\Test_Data\Managed\System.Xml.Linq.dll (this message is harmless)
+Platform assembly: E:\unityProject\习题动态加载\Test_Data\Managed\System.Transactions.dll (this message is harmless)
+Platform assembly: E:\unityProject\习题动态加载\Test_Data\Managed\System.Configuration.dll (this message is harmless)
+Fallback handler could not load library E:/unityProject/习题动态加载/Test_Data/Mono/libc
+Fallback handler could not load library E:/unityProject/习题动态加载/Test_Data/Mono/.\libc
+Fallback handler could not load library E:/unityProject/习题动态加载/Test_Data/Mono/libc
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 18cc -> priority: 1 
+切换到填空题
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+切换到简答题
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+习题做完了
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+切换到填空题
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+切换到选择题
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+切换到填空题
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+切换到选择题
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+切换到填空题
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+切换到简答题
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+习题做完了
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+切换到填空题
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+切换到选择题
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+切换到填空题
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+切换到选择题
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+

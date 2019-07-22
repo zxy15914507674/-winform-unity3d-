@@ -1,0 +1,5 @@
+E:\VS2012Project\习题管理系统解决方案\Model\bin\Debug\Model.dll
+E:\VS2012Project\习题管理系统解决方案\Model\bin\Debug\Model.pdb
+E:\VS2012Project\习题管理系统解决方案\Model\obj\Debug\Model.dll
+E:\VS2012Project\习题管理系统解决方案\Model\obj\Debug\Model.pdb
+E:\VS2012Project\习题管理系统解决方案\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
